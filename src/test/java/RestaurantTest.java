@@ -74,6 +74,7 @@ class RestaurantTest {
 
     @Test
     public void calculate_total_item_cost() {
+        //Unit testcase for new method implemented
         setUpMockRestaurant();
         int totalPrice = restaurant.calculateTotalOrderValue();
         assertEquals(600, totalPrice);

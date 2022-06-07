@@ -43,6 +43,7 @@ public class Restaurant {
     }
 
     public int calculateTotalOrderValue() {
+        // New method implemented
         int totalPrice = 0;
         for(Item item: menu) {
             totalPrice+=item.getPrice();
